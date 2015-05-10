@@ -1,0 +1,32 @@
+{
+  "name": "patchwork",
+  "version": "0.0.1",
+  "description": "Javascript framework for syncronising object state via JSON Patch distribution",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garth/patchwork.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "JSON",
+    "Patch",
+    "Syncronisation"
+  ],
+  "author": "Garth Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garth/patchwork/issues"
+  },
+  "homepage": "https://github.com/garth/patchwork#readme",
+  "dependencies": {
+    "jiff": "^0.7.2"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  }
+}
