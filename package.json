@@ -4,7 +4,8 @@
   "description": "Javascript framework for syncronising object state via JSON Patch distribution",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha test"
+    "pretest": "eslint lib test",
+    "test": "mocha --compilers js:babel/register test"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,16 @@
     "url": "https://github.com/garth/patchwork/issues"
   },
   "homepage": "https://github.com/garth/patchwork#readme",
+  "engines": {
+    "iojs": ">= 2.0.1"
+  },
   "dependencies": {
+    "babel": "^5.3.1",
     "jiff": "^0.7.2"
   },
   "devDependencies": {
     "chai": "^2.3.0",
+    "eslint": "^0.21.0",
     "mocha": "^2.2.4"
   }
 }
