@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "babel": "^5.3.1",
+    "cuid": "^1.2.5",
     "jiff": "^0.7.2"
   },
   "devDependencies": {
